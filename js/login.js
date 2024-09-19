@@ -1,9 +1,17 @@
 // console.log(5454)
 document.getElementById('button-login').addEventListener('click',function(event){
     event.preventDefault();
-    console.log('button click')
 
     const phoneNumber =document.getElementById('phone-Number').value;
-    console.log(phoneNumber);
+    const pinNumber =document.getElementById('pin-number').value;
+   if(phoneNumber ==='5' && pinNumber ==='1111'){
+    console.log("Enter your login in");
+    
+   }
+   else{
+    console.log('enter your number or pin');
+    
+   }
+
     
 })
