@@ -30,14 +30,14 @@
                     <div class="divider"></div>
                     <!-- =========== -->
                     <div>
-                        <button class="btn btn-lg">Add Money</button>
-                        <button class="btn btn-lg">Cashout</button>
+                        <button id="btn-show-add-money" class="btn btn-lg">Add Money</button>
+                        <button id="btn-show-cash-out" class="btn btn-lg">Cashout</button>
                     </div>
 
                     <div class="divider"></div>
 
                     <!-- add maney form start -->
-                    <form class="hidden card-body p-0 flex-none w-[70%]">
+                    <form id="add-mony-form" class=" card-body p-0 flex-none w-[70%]">
                         <div class="form-control">
                             <label class="label">
                                 <span class="label-text">Amount</span>
@@ -56,7 +56,7 @@
                     </form>
                     <!-- add maney form end -->
                      <!-- cash out state -->
-                     <form class="card-body p-0 flex-none w-[70%]">
+                     <form id="cash-out-form" class="hidden card-body p-0 flex-none w-[70%]">
                         <div class="form-control">
                             <label class="label">
                                 <span class="label-text">Amount</span>
@@ -80,6 +80,7 @@
     </main>
     <script src="js/home.js"></script>
     <script src="js/cashOut.js"></script>
+    <script src="js/featacher.js"></script>
 </body>
 
 </html>
