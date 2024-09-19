@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div>
-                            <button id="log-out" class="btn btn-active btn-neutral">Log Out</button>
+                            <button id="log-out" class="btn btn-outline">Log Out</button>
                         </div>
 
                     </div>
@@ -37,7 +37,7 @@
                     <div class="divider"></div>
 
                     <!-- add maney form start -->
-                    <form class="card-body p-0 flex-none">
+                    <form class="hidden card-body p-0 flex-none w-[70%]">
                         <div class="form-control">
                             <label class="label">
                                 <span class="label-text">Amount</span>
@@ -55,6 +55,25 @@
                         </div>
                     </form>
                     <!-- add maney form end -->
+                     <!-- cash out state -->
+                     <form class="card-body p-0 flex-none w-[70%]">
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Amount</span>
+                            </label>
+                            <input id="input-add-money" type="email" placeholder="Enter Amount" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">pin</span>
+                            </label>
+                            <input id="input-pin-number" type="password" placeholder="Pin Number" class="input input-bordered" required  autocomplete="off"/>
+                        </div>
+                        <div class="form-control mt-6">
+                            <button id="btn-add-money" class="btn btn-primary">Cash Out</button>
+                        </div>
+                    </form>
+                      <!-- cash out end -->
                 </div>
             </div>
         </div>
