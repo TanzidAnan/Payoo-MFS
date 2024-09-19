@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div>
-                            <button class="btn btn-active btn-neutral">Log Out</button>
+                            <button id="log-out" class="btn btn-active btn-neutral">Log Out</button>
                         </div>
 
                     </div>
@@ -40,21 +40,18 @@
                     <form class="card-body p-0 flex-none">
                         <div class="form-control">
                             <label class="label">
-                                <span class="label-text">Email</span>
+                                <span class="label-text">Amount</span>
                             </label>
-                            <input type="email" placeholder="email" class="input input-bordered" required />
+                            <input type="email" placeholder="Enter Amount" class="input input-bordered" required />
                         </div>
                         <div class="form-control">
                             <label class="label">
-                                <span class="label-text">Password</span>
+                                <span class="label-text">pin</span>
                             </label>
-                            <input type="password" placeholder="password" class="input input-bordered" required />
-                            <label class="label">
-                                <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-                            </label>
+                            <input type="password" placeholder="password" class="input input-bordered" required  autocomplete="off"/>
                         </div>
                         <div class="form-control mt-6">
-                            <button class="btn btn-primary">Login</button>
+                            <button id="btn-add-money" class="btn btn-primary">Add Money</button>
                         </div>
                     </form>
                     <!-- add maney form end -->
@@ -62,6 +59,7 @@
             </div>
         </div>
     </main>
+    <script src="js/home.js"></script>
 </body>
 
 </html>
