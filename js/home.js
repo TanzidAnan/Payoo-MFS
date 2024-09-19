@@ -5,6 +5,21 @@ document.getElementById('log-out').addEventListener('click',function(){
 
 document.getElementById('btn-add-money').addEventListener('click',function(event){
     event.preventDefault();
-    console.log(6656565656);
+    const inputAddMoney =document.getElementById('input-add-money').value;
+    const inputPinNumber =document.getElementById('input-pin-number').value;
+
+    if(inputAddMoney === Number || inputPinNumber ==='1111'){
+        const Blance =document.getElementById('carrent-blance').innerText;
+        const newInputMoney =parseFloat(inputAddMoney);
+        const newBlance =parseFloat(Blance);
+        const totalMoney =newBlance+ newInputMoney
+        console.log(totalMoney)
+        // Blance.appenen(totalMoney)
+        document.getElementById('carrent-blance').innerText =totalMoney;
+    }
+    else{
+        alert('Faild to add money .....')
+    }
+    
     
 })
